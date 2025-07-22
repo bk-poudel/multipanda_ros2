@@ -1,0 +1,9 @@
+[0.024s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description
+[0.290s] -- The C compiler identification is GNU 11.4.0
+[0.499s] -- The CXX compiler identification is GNU 11.4.0
+[0.529s] -- Detecting C compiler ABI info
+[0.777s] -- Detecting C compiler ABI info - done
+[0.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.795s] -- Detecting C compile features
+[0.797s] -- Detecting C compile features - done
+[0.813s] -- Detecting CXX compiler ABI info

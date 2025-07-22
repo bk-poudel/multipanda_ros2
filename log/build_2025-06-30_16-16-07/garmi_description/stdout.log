@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description
+-- Install configuration: "Release"
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/rplidarA2_kinematics.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_base_mjros.ros2_control.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/mobile_platform.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_wheel.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/rplidarA2.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_sim.urdf.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/base.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/head.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/lidar_with_wheel_mount.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_head_mjros.ros2_control.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/dual_panda_mjros.ros2_control.xacro
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/head.dae
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/mobile_platform.dae
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/torso.dae
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/mobile_platform.dae.meta
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/rplidarA2.dae
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/eyes.png
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi/head.png
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi/torso.png
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/panda
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/panda/panda.png
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/panda_assets.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/garmi.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/garmi_ng.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi_lidar.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi_ng.xml
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras/d435_glass.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras/d435.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/torso.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/wheel.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/inlet.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/head.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/tire.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/caster_wheel.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/base.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/rplidarA2.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/visor.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/head.mtl
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link6.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/finger.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link5.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link1.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link2.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link0.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link0.mtl
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link3.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link7.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link4.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/hand.obj
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//rviz
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//rviz/visualize_garmi.rviz
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/package_run_dependencies/garmi_description
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/parent_prefix_path/garmi_description
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/ament_prefix_path.sh
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/ament_prefix_path.dsv
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/path.sh
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/path.dsv
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.bash
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.sh
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.zsh
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.dsv
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.dsv
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/packages/garmi_description
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/cmake/garmi_descriptionConfig.cmake
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/cmake/garmi_descriptionConfig-version.cmake
+-- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.xml

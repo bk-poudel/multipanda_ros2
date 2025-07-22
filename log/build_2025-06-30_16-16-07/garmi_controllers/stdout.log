@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/garmi_controllers.dir/src/mobile_base_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/garmi_controllers.dir/src/head_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgarmi_controllers.so[0m
+[100%] Built target garmi_controllers

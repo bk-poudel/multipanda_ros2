@@ -1,0 +1,41 @@
+running egg_info
+creating ../build/franka_simple_publishers/franka_simple_publishers.egg-info
+writing ../build/franka_simple_publishers/franka_simple_publishers.egg-info/PKG-INFO
+writing dependency_links to ../build/franka_simple_publishers/franka_simple_publishers.egg-info/dependency_links.txt
+writing entry points to ../build/franka_simple_publishers/franka_simple_publishers.egg-info/entry_points.txt
+writing requirements to ../build/franka_simple_publishers/franka_simple_publishers.egg-info/requires.txt
+writing top-level names to ../build/franka_simple_publishers/franka_simple_publishers.egg-info/top_level.txt
+writing manifest file '../build/franka_simple_publishers/franka_simple_publishers.egg-info/SOURCES.txt'
+reading manifest file '../build/franka_simple_publishers/franka_simple_publishers.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/franka_simple_publishers/franka_simple_publishers.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build
+creating /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib
+creating /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers
+copying franka_simple_publishers/__init__.py -> /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers
+copying franka_simple_publishers/joint_velocity_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers
+copying franka_simple_publishers/joint_position_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers
+copying franka_simple_publishers/cartesian_pose_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers
+running install
+running install_lib
+creating /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers
+copying /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers/__init__.py -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers
+copying /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers/joint_velocity_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers
+copying /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers/joint_position_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers
+copying /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build/lib/franka_simple_publishers/cartesian_pose_publisher.py -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers
+byte-compiling /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers/joint_velocity_publisher.py to joint_velocity_publisher.cpython-310.pyc
+byte-compiling /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers/joint_position_publisher.py to joint_position_publisher.cpython-310.pyc
+byte-compiling /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers/cartesian_pose_publisher.py to cartesian_pose_publisher.cpython-310.pyc
+running install_data
+creating /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/ament_index
+creating /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/ament_index/resource_index
+creating /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/ament_index/resource_index/packages
+copying resource/franka_simple_publishers -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/ament_index/resource_index/packages
+copying package.xml -> /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers
+running install_egg_info
+Copying ../build/franka_simple_publishers/franka_simple_publishers.egg-info to /home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages/franka_simple_publishers-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/install.log'

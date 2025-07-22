@@ -1,0 +1,107 @@
+[0.033s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.353s] -- Detecting C compiler ABI info
+[0.488s] -- Detecting C compiler ABI info - done
+[0.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.510s] -- Detecting CXX compiler ABI info
+[0.608s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.977s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.109s] -- Added test 'lint_cmake' to check CMake code style
+[1.115s] -- Added test 'xmllint' to check XML markup files
+[1.117s] -- Configuring done
+[1.119s] -- Generating done
+[1.121s] -- Build files have been written to: /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description
+[1.130s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description
+[1.131s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description -- -j16 -l16
+[1.168s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description -- -j16 -l16
+[1.169s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description
+[1.177s] -- Install configuration: "Release"
+[1.177s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots
+[1.177s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/rplidarA2_kinematics.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_base_mjros.ros2_control.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/mobile_platform.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_wheel.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/rplidarA2.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_sim.urdf.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/base.xacro
+[1.178s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/head.xacro
+[1.181s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/lidar_with_wheel_mount.xacro
+[1.181s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/garmi_head_mjros.ros2_control.xacro
+[1.181s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/dual_panda_mjros.ros2_control.xacro
+[1.181s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes
+[1.181s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/head.dae
+[1.186s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/mobile_platform.dae
+[1.188s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/torso.dae
+[1.196s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/mobile_platform.dae.meta
+[1.196s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//robots/meshes/rplidarA2.dae
+[1.197s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco
+[1.197s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi
+[1.197s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets
+[1.197s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures
+[1.197s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/eyes.png
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi/head.png
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/garmi/torso.png
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/panda
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/textures/panda/panda.png
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/panda_assets.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/garmi.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/include/garmi_ng.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi_lidar.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/xml/garmi_ng.xml
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras/d435_glass.obj
+[1.198s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/cameras/d435.obj
+[1.205s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi
+[1.205s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/torso.obj
+[1.210s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/wheel.obj
+[1.210s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/inlet.obj
+[1.211s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/head.obj
+[1.213s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/tire.obj
+[1.213s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/caster_wheel.obj
+[1.213s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/base.obj
+[1.213s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/rplidarA2.obj
+[1.214s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/visor.obj
+[1.214s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/garmi/head.mtl
+[1.214s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda
+[1.214s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link6.obj
+[1.215s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/finger.obj
+[1.215s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link5.obj
+[1.217s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link1.obj
+[1.217s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link2.obj
+[1.218s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link0.obj
+[1.220s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link0.mtl
+[1.220s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link3.obj
+[1.222s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link7.obj
+[1.222s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/link4.obj
+[1.223s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//mujoco/garmi/assets/meshes/panda/hand.obj
+[1.223s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//rviz
+[1.223s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description//rviz/visualize_garmi.rviz
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/package_run_dependencies/garmi_description
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/parent_prefix_path/garmi_description
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/ament_prefix_path.sh
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/ament_prefix_path.dsv
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/path.sh
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/environment/path.dsv
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.bash
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.sh
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.zsh
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/local_setup.dsv
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.dsv
+[1.225s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/ament_index/resource_index/packages/garmi_description
+[1.231s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/cmake/garmi_descriptionConfig.cmake
+[1.233s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/cmake/garmi_descriptionConfig-version.cmake
+[1.233s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.xml
+[1.233s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description

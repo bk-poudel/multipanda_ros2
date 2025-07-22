@@ -1,0 +1,61 @@
+[0.464s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config
+[0.516s] -- The C compiler identification is GNU 11.4.0
+[0.587s] -- The CXX compiler identification is GNU 11.4.0
+[0.593s] -- Detecting C compiler ABI info
+[0.659s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.666s] -- Detecting C compile features
+[0.666s] -- Detecting C compile features - done
+[0.668s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.764s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.097s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.188s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.188s] -- Added test 'lint_cmake' to check CMake code style
+[1.189s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.191s] -- Added test 'xmllint' to check XML markup files
+[1.193s] -- Configuring done
+[1.197s] -- Generating done
+[1.199s] -- Build files have been written to: /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config
+[1.205s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config
+[1.208s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config -- -j16 -l16
+[1.246s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config -- -j16 -l16
+[1.257s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config
+[1.265s] -- Install configuration: "Release"
+[1.265s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/config
+[1.265s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/config/ompl_planning.yaml
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/config/sim_garmi_controllers.yaml
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/config/sim_garmi_ros_controllers.yaml
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/config/kinematics.yaml
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/launch
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/launch/sim_garmi_moveit.launch.py
+[1.267s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf
+[1.268s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/garmi_arm.xacro
+[1.268s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/garmi_arm_hand.xacro
+[1.268s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/garmi.srdf.xacro
+[1.268s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/garmi_group_definition.xacro
+[1.269s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/garmi_hand.xacro
+[1.270s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/base.xacro
+[1.270s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/srdf/head.xacro
+[1.271s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/rviz
+[1.271s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/rviz/garmi_moveit.rviz
+[1.272s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/ament_index/resource_index/package_run_dependencies/garmi_moveit_config
+[1.272s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/ament_index/resource_index/parent_prefix_path/garmi_moveit_config
+[1.273s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/environment/ament_prefix_path.sh
+[1.273s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/environment/ament_prefix_path.dsv
+[1.273s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/environment/path.sh
+[1.273s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/environment/path.dsv
+[1.273s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/local_setup.bash
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/local_setup.sh
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/local_setup.zsh
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/local_setup.dsv
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.dsv
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/ament_index/resource_index/packages/garmi_moveit_config
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/cmake/garmi_moveit_configConfig.cmake
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/cmake/garmi_moveit_configConfig-version.cmake
+[1.274s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.xml
+[1.276s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config

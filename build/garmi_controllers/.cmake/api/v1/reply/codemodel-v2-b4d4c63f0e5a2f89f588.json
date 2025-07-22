@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6c87a127e52a0acf1f3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "garmi_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "garmi_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-garmi_controllers-Release-02205986fe77aa1557e3.json",
+					"name" : "garmi_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "garmi_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-garmi_controllers_uninstall-Release-6e367fda568d8bb23265.json",
+					"name" : "garmi_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-459187c8fd51f9db286c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers",
+		"source" : "/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

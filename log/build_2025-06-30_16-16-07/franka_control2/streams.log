@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.308s] -- Configuring incomplete, errors occurred!
+[0.308s] See also "/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2/CMakeFiles/CMakeOutput.log".
+[0.309s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.309s]   By not providing "FindFranka.cmake" in CMAKE_MODULE_PATH this project has
+[0.309s]   asked CMake to find a package configuration file provided by "Franka", but
+[0.309s]   CMake did not find one.
+[0.309s] 
+[0.309s]   Could not find a package configuration file provided by "Franka" with any
+[0.309s]   of the following names:
+[0.309s] 
+[0.309s]     FrankaConfig.cmake
+[0.309s]     franka-config.cmake
+[0.309s] 
+[0.309s]   Add the installation prefix of "Franka" to CMAKE_PREFIX_PATH or set
+[0.309s]   "Franka_DIR" to a directory containing one of the above files.  If "Franka"
+[0.310s]   provides a separate development package or SDK, be sure it has been
+[0.310s]   installed.
+[0.310s] 
+[0.311s] [0m
+[0.314s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2' returned '1': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2

@@ -1,0 +1,161 @@
+[0.058s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description
+[0.500s] -- The C compiler identification is GNU 11.4.0
+[0.500s] -- The CXX compiler identification is GNU 11.4.0
+[0.500s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.522s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.523s] -- Detecting CXX compile features
+[0.523s] -- Detecting CXX compile features - done
+[0.527s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.746s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.879s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.478s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.497s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.500s] -- Added test 'lint_cmake' to check CMake code style
+[3.502s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.513s] -- Added test 'xmllint' to check XML markup files
+[3.524s] -- Configuring done
+[3.535s] -- Generating done
+[3.539s] -- Build files have been written to: /home/bibek/Summer_Research/multipanda_ros2/build/franka_description
+[3.548s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description
+[3.550s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_description -- -j16 -l16
+[3.631s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_description -- -j16 -l16
+[3.633s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_description
+[3.643s] -- Install configuration: "Release"
+[3.643s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//launch
+[3.643s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[3.644s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots
+[3.644s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/sim
+[3.644s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.urdf.xacro
+[3.644s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.urdf.xacro
+[3.644s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.ros2_control.xacro
+[3.645s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.ros2_control.xacro
+[3.645s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/real
+[3.645s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/real/panda_arm.ros2_control.xacro
+[3.645s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/real/panda_arm.urdf.xacro
+[3.646s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/real/dual_panda_arm.urdf.xacro
+[3.646s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/real/dual_panda_arm.ros2_control.xacro
+[3.646s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/common
+[3.646s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/common/hand.xacro
+[3.647s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/common/panda_arm.xacro
+[3.647s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/common/hand.urdf.xacro
+[3.647s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/mixed
+[3.648s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/mixed/mixed_dual_panda_arm.urdf.xacro
+[3.648s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//robots/mixed/mixed_quad_panda_arm.urdf.xacro
+[3.648s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes
+[3.649s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual
+[3.649s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link3.dae
+[3.653s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link7.dae
+[3.656s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/meshes.blend
+[3.661s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/hand.dae
+[3.665s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link2.dae
+[3.668s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link5.dae
+[3.671s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/finger.dae
+[3.671s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link0.dae
+[3.673s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link1.dae
+[3.675s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link4.dae
+[3.678s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//meshes/visual/link6.dae
+[3.684s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//rviz
+[3.684s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[3.684s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//rviz/visualize_dual_franka.rviz
+[3.684s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco
+[3.684s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka
+[3.685s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/scene_ng.xml
+[3.685s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/mj_dual_ng.xml
+[3.685s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/panda.xml
+[3.685s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/dual_scene.xml
+[3.686s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/mj_dual.xml
+[3.687s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/objects.xml
+[3.687s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets
+[3.687s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_6.obj
+[3.688s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand_2.obj
+[3.690s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link4_2.obj
+[3.694s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_10.obj
+[3.695s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand_3.obj
+[3.700s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0.stl
+[3.700s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_1.obj
+[3.703s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_6.obj
+[3.704s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_11.obj
+[3.706s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_0.obj
+[3.706s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_12.obj
+[3.706s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_2.obj
+[3.708s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_2.obj
+[3.710s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link4.stl
+[3.711s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_5.obj
+[3.712s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/finger_0.obj
+[3.712s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link1.obj
+[3.729s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link4_1.obj
+[3.729s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_0.obj
+[3.730s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_7.obj
+[3.735s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link2.obj
+[3.757s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand_1.obj
+[3.758s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_4.obj
+[3.759s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link3.stl
+[3.760s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_11.obj
+[3.762s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand_0.obj
+[3.762s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/finger_1.obj
+[3.763s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_1.obj
+[3.764s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_5.obj
+[3.765s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link3_3.obj
+[3.766s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand_4.obj
+[3.767s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_2.obj
+[3.769s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_7.obj
+[3.769s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_10.obj
+[3.771s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_1.obj
+[3.771s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_14.obj
+[3.775s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_4.obj
+[3.776s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link4_3.obj
+[3.777s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_9.obj
+[3.779s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_9.obj
+[3.780s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7.stl
+[3.780s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6.stl
+[3.780s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_2.obj
+[3.781s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_1.obj
+[3.781s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link4_0.obj
+[3.782s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_0.obj
+[3.785s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_1.obj
+[3.785s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link2.stl
+[3.786s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_3.obj
+[3.786s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link1.stl
+[3.786s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/hand.stl
+[3.787s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_0.obj
+[3.790s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_3.obj
+[3.791s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_0.obj
+[3.795s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_5.obj
+[3.796s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_16.obj
+[3.803s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link3_2.obj
+[3.805s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link5_2.obj
+[3.830s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_13.obj
+[3.830s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_7.obj
+[3.830s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_8.obj
+[3.830s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_4.obj
+[3.831s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link0_8.obj
+[3.840s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link7_3.obj
+[3.843s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link6_15.obj
+[3.843s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link3_0.obj
+[3.848s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/assets/link3_1.obj
+[3.848s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/panda_ng.xml
+[3.848s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/dual_scene_ng.xml
+[3.848s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/TEMPLATE_panda.xml
+[3.848s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description//mujoco/franka/scene.xml
+[3.851s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[3.851s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[3.852s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[3.853s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[3.853s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/environment/path.sh
+[3.854s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/environment/path.dsv
+[3.854s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/local_setup.bash
+[3.854s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/local_setup.sh
+[3.855s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/local_setup.zsh
+[3.855s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/local_setup.dsv
+[3.855s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.dsv
+[3.855s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[3.855s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[3.859s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[3.859s] -- Installing: /home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.xml
+[3.865s] Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_description

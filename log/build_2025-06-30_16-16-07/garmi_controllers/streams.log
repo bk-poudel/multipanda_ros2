@@ -1,0 +1,45 @@
+[0.021s] Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers -- -j16 -l16
+[0.653s] [ 33%] [32mBuilding CXX object CMakeFiles/garmi_controllers.dir/src/mobile_base_controller.cpp.o[0m
+[0.654s] [ 66%] [32mBuilding CXX object CMakeFiles/garmi_controllers.dir/src/head_controller.cpp.o[0m
+[3.843s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type garmi_controllers::HeadController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.843s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:32:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.843s]    32 | controller_interface::return_type HeadController::update([01;35m[Kconst rclcpp::Time& time[m[K,
+[3.843s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.925s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::HeadController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[3.925s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:78:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.925s]    78 | CallbackReturn HeadController::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[3.925s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.047s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type garmi_controllers::MobileBaseController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.047s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:28:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.047s]    28 | nterface::return_type MobileBaseController::update([01;35m[Kconst rclcpp::Time& time[m[K,
+[4.047s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.047s] 
+[4.047s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:29:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.047s]    29 |                                             [01;35m[Kconst rclcpp::Duration& period[m[K){
+[4.047s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.047s] 
+[4.111s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::MobileBaseController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[4.112s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:52:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.112s]    52 | obileBaseController::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[4.112s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.112s] 
+[4.315s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::HeadController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[4.315s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:86:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.315s]    86 | CallbackReturn HeadController::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[4.315s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.315s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::HeadController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[4.315s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/head_controller.cpp:93:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.315s]    93 | CallbackReturn HeadController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[4.315s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.520s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::MobileBaseController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[4.520s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:60:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.520s]    60 | MobileBaseController::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[4.520s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.520s] 
+[4.520s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn garmi_controllers::MobileBaseController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[4.520s] [01m[K/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers/src/mobile_base_controller.cpp:66:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.521s]    66 | bileBaseController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K){
+[4.521s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.521s] 
+[12.787s] [100%] [32m[1mLinking CXX shared library libgarmi_controllers.so[0m
+[13.052s] [100%] Built target garmi_controllers

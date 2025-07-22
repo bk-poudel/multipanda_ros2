@@ -1,0 +1,847 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x727b9fbc4280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x727b9fb87c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x727b9fb87c10>>, mixin_verb=('build',))
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.237s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bibek/Summer_Research/multipanda_ros2'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/chapters) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/example_scripts) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(franka_bringup) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(franka_control2) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_control2' with type 'ros.ament_cmake' and name 'franka_control2'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_description) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(franka_example_controllers) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(franka_gripper) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_gripper' with type 'ros.ament_cmake' and name 'franka_gripper'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(franka_hardware) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_moveit_config) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_moveit_config' with type 'ros.ament_cmake' and name 'franka_moveit_config'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_msgs) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_control_msgs) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_multi_mode_controller/multi_mode_control_msgs' with type 'ros.ament_cmake' and name 'multi_mode_control_msgs'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_multi_mode_controller/multi_mode_controller' with type 'ros.ament_cmake' and name 'multi_mode_controller'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/multi_mode_controller_impl) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_multi_mode_controller/multi_mode_controller_impl' with type 'ros.ament_cmake' and name 'multi_mode_controller_impl'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generator_msgs) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_multi_mode_controller/panda_motion_generator_msgs' with type 'ros.ament_cmake' and name 'panda_motion_generator_msgs'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_multi_mode_controller/panda_motion_generators) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_multi_mode_controller/panda_motion_generators' with type 'ros.ament_cmake' and name 'panda_motion_generators'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(franka_robot_state_broadcaster) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(franka_semantic_components) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(franka_simple_publishers) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'franka_simple_publishers' with type 'ros.ament_python' and name 'franka_simple_publishers'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_bringup) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'garmi_packages/garmi_bringup' with type 'ros.ament_cmake' and name 'garmi_bringup'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_controllers) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'garmi_packages/garmi_controllers' with type 'ros.ament_cmake' and name 'garmi_controllers'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_description) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'garmi_packages/garmi_description' with type 'ros.ament_cmake' and name 'garmi_description'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(garmi_packages/garmi_moveit_config) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'garmi_packages/garmi_moveit_config' with type 'ros.ament_cmake' and name 'garmi_moveit_config'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'franka_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_description', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'franka_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'franka_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'franka_simple_publishers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'franka_simple_publishers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_simple_publishers', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'garmi_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_controllers', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'garmi_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'garmi_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generator_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'panda_motion_generator_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_control2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'franka_control2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_control2', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'franka_gripper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'franka_gripper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_gripper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_gripper', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_gripper', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'franka_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_hardware', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'garmi_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'garmi_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'multi_mode_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/multi_mode_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/multi_mode_control_msgs', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_control_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_bringup', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'franka_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_moveit_config', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'franka_semantic_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'franka_semantic_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_semantic_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_semantic_components', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_semantic_components', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'garmi_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'garmi_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_bringup', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'franka_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_example_controllers', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_example_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'franka_robot_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'franka_robot_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/franka_robot_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/franka_robot_state_broadcaster', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_robot_state_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'multi_mode_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/multi_mode_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/multi_mode_controller', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_controller', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'multi_mode_controller_impl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'multi_mode_controller_impl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/multi_mode_controller_impl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/multi_mode_controller_impl', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_controller_impl', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'panda_motion_generators' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'panda_motion_generators' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generators', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generators', 'merge_install': False, 'path': '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generators', 'symlink_install': False, 'test_result_base': None}
+[0.343s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_msgs' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_msgs'
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_description' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_description'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers' with build type 'ament_cmake'
+[0.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_controllers'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs' with build type 'ament_cmake'
+[0.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_simple_publishers' with build type 'ament_python'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_simple_publishers', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/ament_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_moveit_config' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_moveit_config'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs -- -j16 -l16
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_description -- -j16 -l16
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers -- -j16 -l16
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs -- -j16 -l16
+[0.975s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bibek/Summer_Research/multipanda_ros2/franka_simple_publishers'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config -- -j16 -l16
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_description -- -j16 -l16
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_description
+[1.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_description
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description' for CMake module files
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description' for CMake config files
+[1.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/bin'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/lib/python3.10/site-packages'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/bin'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.bash'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.zsh'
+[1.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/colcon-core/packages/franka_description)
+[1.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_description)
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description' for CMake module files
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description' for CMake config files
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_description', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/hook/cmake_prefix_path.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/bin'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/lib/pkgconfig/franka_description.pc'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/lib/python3.10/site-packages'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/bin'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.sh'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/franka_description/package.zsh'
+[1.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_description/share/colcon-core/packages/franka_description)
+[1.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description' with build type 'ament_cmake'
+[1.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description'
+[1.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config -- -j16 -l16
+[1.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(garmi_moveit_config)
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config' for CMake module files
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config' for CMake config files
+[1.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('garmi_moveit_config', 'cmake_prefix_path')
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.sh'
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_moveit_config
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/lib/pkgconfig/garmi_moveit_config.pc'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/lib/python3.10/site-packages'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.dsv'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.zsh'
+[1.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/colcon-core/packages/garmi_moveit_config)
+[1.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(garmi_moveit_config)
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config' for CMake module files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config' for CMake config files
+[1.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('garmi_moveit_config', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/bin'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/lib/pkgconfig/garmi_moveit_config.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/lib/python3.10/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/bin'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.bash'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/garmi_moveit_config/package.zsh'
+[1.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/garmi_moveit_config/share/colcon-core/packages/garmi_moveit_config)
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/franka_simple_publishers': PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/franka_simple_publishers build --build-base /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build install --record /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/install.log --single-version-externally-managed install_data
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers' for CMake module files
+[2.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/franka_simple_publishers' returned '0': PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/franka_simple_publishers build --build-base /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/build install --record /home/bibek/Summer_Research/multipanda_ros2/build/franka_simple_publishers/install.log --single-version-externally-managed install_data
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers' for CMake config files
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/bin'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/pkgconfig/franka_simple_publishers.pc'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/lib/python3.10/site-packages'
+[2.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_simple_publishers', 'pythonpath')
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/pythonpath.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/pythonpath.dsv'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/hook/pythonpath.sh'
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/bin'
+[2.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_simple_publishers)
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/package.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/package.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/package.sh'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/package.bash'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/franka_simple_publishers/package.zsh'
+[2.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_simple_publishers/share/colcon-core/packages/franka_simple_publishers)
+[2.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/garmi_packages/garmi_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description
+[2.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description -- -j16 -l16
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description -- -j16 -l16
+[2.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description
+[2.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(garmi_description)
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description' for CMake module files
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description' for CMake config files
+[2.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('garmi_description', 'cmake_prefix_path')
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.ps1'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.sh'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/bin'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/lib/pkgconfig/garmi_description.pc'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/lib/python3.10/site-packages'
+[2.374s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/bin'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.ps1'
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_description' returned '0': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_description:/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/garmi_description
+[2.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.dsv'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.sh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.bash'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.zsh'
+[2.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/colcon-core/packages/garmi_description)
+[2.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(garmi_description)
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description' for CMake module files
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description' for CMake config files
+[2.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('garmi_description', 'cmake_prefix_path')
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.ps1'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.dsv'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/hook/cmake_prefix_path.sh'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/bin'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/lib/pkgconfig/garmi_description.pc'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/lib/python3.10/site-packages'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/bin'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.sh'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.bash'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/garmi_description/package.zsh'
+[2.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/garmi_description/share/colcon-core/packages/garmi_description)
+[4.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs -- -j16 -l16
+[4.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs
+[4.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_motion_generator_msgs)
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs' for CMake module files
+[4.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/panda_motion_generator_msgs
+[4.541s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs' for CMake config files
+[4.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_motion_generator_msgs', 'cmake_prefix_path')
+[4.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.ps1'
+[4.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.dsv'
+[4.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.sh'
+[4.542s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib'
+[4.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_motion_generator_msgs', 'ld_library_path_lib')
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.ps1'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.dsv'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.sh'
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/bin'
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib/pkgconfig/panda_motion_generator_msgs.pc'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib/python3.10/site-packages'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/bin'
+[4.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.ps1'
+[4.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.sh'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.bash'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.zsh'
+[4.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/colcon-core/packages/panda_motion_generator_msgs)
+[4.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_motion_generator_msgs)
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs' for CMake module files
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs' for CMake config files
+[4.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_motion_generator_msgs', 'cmake_prefix_path')
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/cmake_prefix_path.sh'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib'
+[4.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_motion_generator_msgs', 'ld_library_path_lib')
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.ps1'
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.dsv'
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/hook/ld_library_path_lib.sh'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/bin'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib/pkgconfig/panda_motion_generator_msgs.pc'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/lib/python3.10/site-packages'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/bin'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.ps1'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.dsv'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.sh'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.bash'
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/panda_motion_generator_msgs/package.zsh'
+[4.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/panda_motion_generator_msgs/share/colcon-core/packages/panda_motion_generator_msgs)
+[12.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs -- -j16 -l16
+[12.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs
+[12.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[12.994s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs' for CMake module files
+[12.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bibek/Summer_Research/multipanda_ros2/build/franka_msgs
+[12.994s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs' for CMake config files
+[12.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[12.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[12.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[12.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[12.996s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib'
+[12.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[12.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[12.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[12.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[12.997s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/bin'
+[12.997s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[12.997s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib/python3.10/site-packages'
+[12.997s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/bin'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.ps1'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.dsv'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.sh'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.bash'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.zsh'
+[12.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[12.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_msgs)
+[12.999s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs' for CMake module files
+[12.999s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs' for CMake config files
+[13.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'cmake_prefix_path')
+[13.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.ps1'
+[13.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.dsv'
+[13.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/cmake_prefix_path.sh'
+[13.001s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib'
+[13.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('franka_msgs', 'ld_library_path_lib')
+[13.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.ps1'
+[13.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.dsv'
+[13.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/hook/ld_library_path_lib.sh'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/bin'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib/pkgconfig/franka_msgs.pc'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib/python3.10/site-packages'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/bin'
+[13.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.ps1'
+[13.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.dsv'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.sh'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.bash'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/franka_msgs/package.zsh'
+[13.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/share/colcon-core/packages/franka_msgs)
+[13.004s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_hardware' with build type 'ament_cmake'
+[13.004s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_hardware'
+[13.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_control_msgs' with build type 'ament_cmake'
+[13.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_control_msgs'
+[13.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.008s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_gripper' with build type 'ament_cmake'
+[13.008s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_gripper'
+[13.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.011s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bibek/Summer_Research/multipanda_ros2/franka_control2' with build type 'ament_cmake'
+[13.011s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bibek/Summer_Research/multipanda_ros2/franka_control2'
+[13.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_hardware': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_hardware -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_hardware
+[13.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/multi_mode_control_msgs': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/multi_mode_control_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/multi_mode_control_msgs
+[13.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_gripper': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_gripper -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_gripper
+[13.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2
+[13.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bibek/Summer_Research/multipanda_ros2/build/franka_control2' returned '1': AMENT_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bibek/Summer_Research/multipanda_ros2/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bibek/Summer_Research/multipanda_ros2/franka_control2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2
+[13.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(franka_control2)
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2' for CMake module files
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2' for CMake config files
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/bin'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/lib/pkgconfig/franka_control2.pc'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/lib/python3.10/site-packages'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/bin'
+[13.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/franka_control2/package.ps1'
+[13.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/franka_control2/package.dsv'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/franka_control2/package.sh'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/franka_control2/package.bash'
+[13.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/franka_control2/package.zsh'
+[13.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bibek/Summer_Research/multipanda_ros2/install/franka_control2/share/colcon-core/packages/franka_control2)
+[14.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[14.837s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.846s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.870s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bibek/Summer_Research/multipanda_ros2/install/local_setup.ps1'
+[14.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bibek/Summer_Research/multipanda_ros2/install/_local_setup_util_ps1.py'
+[14.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bibek/Summer_Research/multipanda_ros2/install/setup.ps1'
+[14.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bibek/Summer_Research/multipanda_ros2/install/local_setup.sh'
+[14.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bibek/Summer_Research/multipanda_ros2/install/_local_setup_util_sh.py'
+[14.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bibek/Summer_Research/multipanda_ros2/install/setup.sh'
+[14.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bibek/Summer_Research/multipanda_ros2/install/local_setup.bash'
+[14.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bibek/Summer_Research/multipanda_ros2/install/setup.bash'
+[14.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bibek/Summer_Research/multipanda_ros2/install/local_setup.zsh'
+[14.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bibek/Summer_Research/multipanda_ros2/install/setup.zsh'

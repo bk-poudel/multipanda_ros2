@@ -1,0 +1,22 @@
+{
+  "package_name": "franka_msgs",
+  "non_idl_tuples": [
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:action/Grasp.action",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:action/Homing.action",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:action/Move.action",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/ErrorRecovery.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetCartesianStiffness.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetTCPFrame.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetForceTorqueCollisionBehavior.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetFullCollisionBehavior.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetJointStiffness.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetStiffnessFrame.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetLoad.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:srv/SetMujocoPoses.srv",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:msg/GraspEpsilon.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:msg/FrankaState.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:msg/FrankaModel.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:msg/Errors.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_msgs:msg/PoseStampedArray.msg"
+  ]
+}

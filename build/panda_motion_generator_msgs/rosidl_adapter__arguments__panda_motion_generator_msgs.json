@@ -1,0 +1,10 @@
+{
+  "package_name": "panda_motion_generator_msgs",
+  "non_idl_tuples": [
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs:msg/JointPose.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs:msg/SetTimeScaling.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs:msg/SimpleActionResult.msg",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs:action/CartesianViaMotion.action",
+    "/home/bibek/Summer_Research/multipanda_ros2/franka_multi_mode_controller/panda_motion_generator_msgs:action/JointViaMotion.action"
+  ]
+}

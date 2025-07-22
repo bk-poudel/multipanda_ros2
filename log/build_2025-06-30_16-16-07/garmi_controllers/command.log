@@ -1,0 +1,1 @@
+Invoking command in '/home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bibek/Summer_Research/multipanda_ros2/build/garmi_controllers -- -j16 -l16
